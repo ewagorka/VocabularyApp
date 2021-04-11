@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">VocApp</string>
+    <string name="addWord">Add Word</string>
+    <string name="seeList">See List</string>
+    <string name="test">Test Yourself</string>
+    <string name="nav_support">Settings</string>
+    <string name="nav_changeLanguage">Change Languages</string>
+    <string name="nav_changeMode">Change Mode</string>
+    <string name="main_menu">Main menu</string>
+    <string name="info">Info</string>
+
+
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="Word">Word</string>
+    <string name="addNewWord">Add new word</string>
+    <string name="hintWord1">New word</string>
+    <string name="hintWord2">Meaning</string>
+    <string name="yourList">Your list</string>
+    <string name="chooseTest">Choose test</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainMenu">mainMenu</string>
+    <string name="test1">Test 1</string>
+    <string name="test2">Test 2</string>
+    <string name="wordOriginal">Word original</string>
+    <string name="wordTranslation">Word Translation</string>
+    <string name="typeOfSpeech">Type of speech</string>
+    <string name="delete_word_button_description">Bin icon</string>
+    <string name="newWordTextView">New word:</string>
+    <string name="meaningTextView">Meaning:</string>
+    <string name="submitButton">Submit</string>
+    <string name="typeOfSpeechTextView">Choose type of speech:</string>
+    <string name="missing_data">Please enter all the values</string>
+    <string name="provideLanguagesTextView">Please provide languages that, you wish to save your words in.</string>
+    <string name="firstLanguage">Native Language</string>
+    <string name="secondLanguage">New language</string>
+    <string name="changeLanguagesWarning">Changing languages will cause deleting all words you have added!</string>
+    <string name="changeLanguages">Change Languages</string>
+    <string name="infoTextView">This app was created as my CS31620 Assignment project. It gives you the ability to add new words and their meaning to a list. After that you can review your list in the See List section. You can also change languages that you define your words in(this action will delete all the currently existing words from the database).</string>
+    <string name="settings">Settings</string>
+    <string name="nativeLanguage">Native Language</string>
+    <string name="newLanguage">New Language</string>
+
+    <string-array name="type_of_speech_array">
+        <item>Any type</item>
+        <item>Noun</item>
+        <item>Pronoun</item>
+        <item>Verb</item>
+        <item>Adjective</item>
+        <item>Adverb</item>
+        <item>Preposition</item>
+        <item>Conjunction</item>
+        <item>Interjection</item>
+        <item>Different</item>
+    </string-array>
+
+</resources>

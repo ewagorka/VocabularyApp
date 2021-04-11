@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#720026</item>
+        <item name="colorPrimaryDark">#4F000B</item>
+        <item name="colorAccent">#CE4257</item>
+        <item name="toolbarStyle">@style/ToolbarTheme</item>
+
+
+        <item name="android:navigationBarColor">#CE4257</item>
+    </style>
+    <style name="ToolbarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">#720026</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+</resources>

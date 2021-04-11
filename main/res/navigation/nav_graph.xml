@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_mainMenu">
+    <fragment
+        android:id="@+id/navigation_mainMenu"
+        android:name="uk.ac.aber.dcs.cs31620.assignment.mainMenu.MainMenu"
+        android:label="@string/main_menu"
+        tools:layout="@layout/fragment_main_menu">
+        <action
+            android:id="@+id/action_mainMenu_to_addWord"
+            app:destination="@id/navigation_addWord" />
+        <action
+            android:id="@+id/action_mainMenu_to_seeList"
+            app:destination="@id/navigation_seeList" />
+        <action
+            android:id="@+id/action_mainMenu_to_tests"
+            app:destination="@id/navigation_tests" />
+        <action
+            android:id="@+id/action_navigation_mainMenu_to_changeLanguages"
+            app:destination="@id/changeLanguages" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_addWord"
+        android:name="uk.ac.aber.dcs.cs31620.assignment.mainMenu.addWord.AddWord"
+        android:label="fragment_add_word"
+        tools:layout="@layout/fragment_add_word" />
+    <fragment
+        android:id="@+id/navigation_seeList"
+        android:name="uk.ac.aber.dcs.cs31620.assignment.mainMenu.seeList.SeeList"
+        android:label="fragment_see_list"
+        tools:layout="@layout/fragment_see_list" >
+        <action
+            android:id="@+id/action_navigation_seeList_to_navigation_addWord"
+            app:destination="@id/navigation_addWord" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_tests"
+        android:name="uk.ac.aber.dcs.cs31620.assignment.mainMenu.Tests.Tests"
+        android:label="fragment_tests"
+        tools:layout="@layout/fragment_tests" />
+    <fragment
+        android:id="@+id/introductionActivity"
+        android:name="uk.ac.aber.dcs.cs31620.assignment.startup.IntroductionActivity"
+        android:label="activity_introduction"
+        tools:layout="@layout/activity_introduction" >
+        <action
+            android:id="@+id/action_introductionActivity_to_navigation_mainMenu"
+            app:destination="@id/navigation_mainMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeLanguages"
+        android:name="uk.ac.aber.dcs.cs31620.assignment.mainMenu.changeLanguages.ChangeLanguages"
+        android:label="ChangeLanguages" />
+</navigation>

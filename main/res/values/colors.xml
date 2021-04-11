@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryExtraDark">#8C8B8B</color>
+>
+    <color name="cardBackground">#7C83AF</color>
+    <color name="red">#CE0E00</color>
+    <color name="accent1">#E43846</color>
+    <color name="accent2">#AC3E4F</color>
+    <color name="colorPrimary">#720026</color>
+    <color name="colorPrimaryDark">#4F000B</color>
+    <color name="colorAccent">#CE4257</color>
+</resources>
